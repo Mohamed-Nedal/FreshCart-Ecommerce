@@ -6,7 +6,7 @@ import { removeUser } from "../../store/slice/userSlice";
 import { currencyEgpFormat } from "../../utils/methods/currencyFormat";
 import { Link, useLocation } from "react-router-dom";
 import { CiMoneyCheck1, CiShoppingCart, CiWarning } from "react-icons/ci";
-import CartDropdownItem from "./cartDropdownItem";
+import CartDropdownItem from "./CartDropdownItem";
 import { Fragment } from "react";
 
 const NavInfo = ({ open, user }) => {
