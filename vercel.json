@@ -1,12 +1,1 @@
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "dist",
-      "use": "@vercel/static-build",
-      "config": {
-        "vite": true
-      }
-    }
-  ]
-}
+
