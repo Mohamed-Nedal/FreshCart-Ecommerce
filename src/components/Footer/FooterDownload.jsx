@@ -2,6 +2,8 @@ import { FaCcVisa } from "react-icons/fa";
 import { FaCcMastercard } from "react-icons/fa";
 import { FaCcPaypal } from "react-icons/fa";
 import { FaAmazonPay } from "react-icons/fa6";
+import imgDownload1 from "../../assets/download1.jpg";
+import imgDownload2 from "../../assets/download2.jpg";
 
 const FooterDownload = () => {
   return (
@@ -27,16 +29,8 @@ const FooterDownload = () => {
       <div className="flex items-center gap-2">
         <span className=" capitalize">get deliveries with freshCart</span>
         <div className="flex items-center gap-2 translate-y-0.5">
-          <img
-            src="/src/assets/download1.jpg"
-            alt="google play"
-            className="w-28"
-          />
-          <img
-            src="/src/assets/download2.jpg"
-            alt="app store"
-            className="w-28"
-          />
+          <img src={imgDownload1} alt="google play" className="w-28" />
+          <img src={imgDownload2} alt="app store" className="w-28" />
         </div>
       </div>
     </div>
